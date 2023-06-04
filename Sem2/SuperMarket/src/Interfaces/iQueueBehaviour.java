@@ -1,9 +1,9 @@
 package Interfaces;
 
-import Classes.Actor;
+// import Classes.Actor;
 
 public interface iQueueBehaviour {
-    void takeInQueue(Actor actor);
+    void takeInQueue(iActorBehaviour actor);
     void releaseFromQueue();
     void takeOrder();
     void giveOrder();
